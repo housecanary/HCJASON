@@ -1,3 +1,5 @@
+*Note* Forked by @worthbak on October 12, 2017. 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/delba/JASON/assets/JASON.png">
 </p>
@@ -143,14 +145,14 @@ extension JSONKeys {
     static let id    = JSONKey<Int>("id")
     static let createdAt = JSONKey<NSDate?>("created_at")
     static let updatedAt = JSONKey<NSDate?>("updated_at")
-    
+
     static let title = JSONKey<String>("title")
-    
+
     static let normalImageURL = JSONKey<NSURL?>(path: "images", "normal")
     static let hidpiImageURL  = JSONKey<NSURL?>(path: "images", "hidpi")
-    
+
     static let user = JSONKey<JSON>("user")
-    static let name = JSONKey<String>("name") 
+    static let name = JSONKey<String>("name")
 }
 ```
 
@@ -160,25 +162,25 @@ extension JSONKeys {
 struct Shot {
     let id: Int
     let title: String
-    
+
     let normalImageURL: NSURL
     var hidpiImageURL: NSURL?
-    
+
     let createdAt: NSDate
     let updatedAt: NSDate
-    
+
     let user: User
 
     init(_ json: JSON) {
         id    = json[.id]
         title = json[.title]
-        
+
         normalImageURL = json[.normalImageURL]!
         hidpiImageURL  = json[.hidpiImageURL]
-        
+
         createdAt = json[.createdAt]!
         updatedAt = json[.updatedAt]!
-        
+
         user = User(json[.user])
     }
 }
@@ -188,14 +190,14 @@ struct Shot {
 struct User {
     let id: Int
     let name: String
-    
+
     let createdAt: NSDate
     let updatedAt: NSDate
 
     init(_ json: JSON) {
         id   = json[.id]
         name = json[.name]
-        
+
         createdAt = json[.createdAt]!
         updatedAt = json[.updatedAt]!
     }
