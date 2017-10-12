@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "JASON"
+  s.name         = "HCJASON"
   s.version      = "4.0.0"
   s.license      = { :type => "MIT" }
   s.homepage     = "https://github.com/housecanary/JASON"
