@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "JASON"
-  s.version      = "3.1"
+  s.version      = "4.0"
   s.license      = { :type => "MIT" }
-  s.homepage     = "https://github.com/delba/JASON"
-  s.author       = { "Damien" => "damien@delba.io" }
+  s.homepage     = "https://github.com/housecanary/JASON"
+  s.author       = { "Worth Baker" => "wbaker@housecanary.com" }
   s.summary      = "Fast JSON parsing for Swift"
-  s.source       = { :git => "https://github.com/delba/JASON.git", :tag => "v3.1" }
+  s.source       = { :git => "https://github.com/housecanary/JASON.git", :tag => s.version }
 
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
