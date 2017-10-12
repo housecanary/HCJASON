@@ -436,7 +436,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D05C7DD1B3EA79A0050416C /* Build configuration list for PBXProject "JASON" */;
+			buildConfigurationList = 6D05C7DD1B3EA79A0050416C /* Build configuration list for PBXProject "HCJASON" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -749,7 +749,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.delba.JASON;
+				PRODUCT_BUNDLE_IDENTIFIER = com.housecanary.HCJASON;
 				PRODUCT_NAME = JASON;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -770,7 +770,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.delba.JASON;
+				PRODUCT_BUNDLE_IDENTIFIER = com.housecanary.HCJASON;
 				PRODUCT_NAME = JASON;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1010,7 +1010,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D05C7DD1B3EA79A0050416C /* Build configuration list for PBXProject "JASON" */ = {
+		6D05C7DD1B3EA79A0050416C /* Build configuration list for PBXProject "HCJASON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D05C7F71B3EA79A0050416C /* Debug */,
