@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "HCJASON"
-  s.version      = "4.0.2"
+  s.version      = "4.0.3"
   s.license      = { :type => "MIT" }
   s.homepage     = "https://github.com/housecanary/JASON"
   s.author       = { "Worth Baker" => "wbaker@housecanary.com" }
   s.summary      = "Fast JSON parsing for Swift"
-  s.source       = { :git => "https://github.com/housecanary/JASON.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/housecanary/HCJASON.git", :tag => s.version }
 
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
