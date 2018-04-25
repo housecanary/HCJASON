@@ -43,14 +43,25 @@ public struct JSON {
     }
 
     /**
-        Creates an instance of JSON from NSData.
+        Creates an instance of JSON from Data.
 
-        - parameter data: An instance of NSData
+        - parameter data: An instance of Data
 
         - returns: the created JSON
     */
     public init(_ data: Data?) {
         self.init(object: JSON.objectWithData(data))
+    }
+
+    /**
+     Creates an instance of JSON from NSData.
+
+     - parameter data: An instance of NSData
+
+     - returns: the created JSON
+     */
+    public init(_ data: NSData?) {
+        self.init(data as Data?)
     }
     
     /**
